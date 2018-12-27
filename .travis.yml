@@ -21,8 +21,8 @@ install:
 
 script:
   - busted --coverage
-
-after_success:
   - luacov
   - lua testCoverage.lua
+
+after_success:
   - luacov-coveralls
