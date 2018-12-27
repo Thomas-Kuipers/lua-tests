@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec '/Users/thomas/Work/Projects/lua-tests/lua53/bin/lua' -e 'package.path="/Users/thomas/.luarocks/share/lua/5.3/?.lua;/Users/thomas/.luarocks/share/lua/5.3/?/init.lua;/Users/thomas/Work/Projects/lua-tests/lua53/share/lua/5.3/?.lua;/Users/thomas/Work/Projects/lua-tests/lua53/share/lua/5.3/?/init.lua;"..package.path; package.cpath="/Users/thomas/.luarocks/lib/lua/5.3/?.so;/Users/thomas/Work/Projects/lua-tests/lua53/lib/lua/5.3/?.so;"..package.cpath' -e 'local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("busted","2.0.rc13-0")' '/Users/thomas/Work/Projects/lua-tests/lua53/lib/luarocks/rocks/busted/2.0.rc13-0/bin/busted' "$@"
