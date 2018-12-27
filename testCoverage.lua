@@ -15,3 +15,5 @@ local minimumCoverage = 100
 if coverage < minimumCoverage then 
 	error('Unit test code coverage is too low: ' .. coverage .. '%. The minimum coverage is ' .. minimumCoverage .. '%.') 
 end
+
+print('Unit test code coverage: ' .. coverage .. '%.')
