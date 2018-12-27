@@ -1,1 +1,0 @@
-{"lua": {"compat": "default", "name": "Lua", "major version": "5.3", "c flags": "", "source": "release", "patched": "false", "version": "5.3.5", "location": "/Users/thomas/Work/Projects/lua-tests/lua53", "readline": "true", "target": "macosx"}, "version": 3, "luarocks": {"source": "release", "version": "2.4.4", "name": "LuaRocks"}}
