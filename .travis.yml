@@ -23,4 +23,5 @@ script:
   - busted --coverage
 
 after_success:
+  - lua testCoverage.lua
   - luacov-coveralls
